@@ -16,6 +16,11 @@
 
 .box {
   max-height: 450px;
+  background-color: rgb(253, 250, 243);
+}
+.client_bg{
+  background-color: rgb(253, 250, 243);
+
 }
 
 .box img {
@@ -28,13 +33,54 @@
   margin: 50px;
 }
 
-.section1 h1{
+.section1 h1 {
   font-weight: 900;
-  font-family: 'Fraunces';
+  font-family: "Fraunces";
 }
 
 .section1 p {
-  padding: 10px;
+  font-family: "Fraunces";
+}
+.section1 a {
+  font-family: "Fraunces";
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  text-decoration: rgba(243, 174, 174, 0.5) underline 6px;
+}
+.section1 a:hover {
+  text-decoration: red underline 6px;
+}
+#hero {
+  background: url(images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  position: relative;
+  height: 450px;
+}
+#hero2 {
+  background: url(images/desktop/image-photography.jpg);
+  background-size: cover;
+  position: relative;
+  height: 450px;
+}
+.hero_text {
+ top: 20px;
+
+}
+.client_text{
+  color: hsl(210, 4%, 67%);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 24px !important;
+  padding-top: 50px;
+
+}
+.img-rounded{
+  border-radius: 100%;
+  position: relative;
+  margin: -5px 0 0 100px;
 }
 
 .Logo {
@@ -68,4 +114,3 @@ ul.link_list li a:hover {
   color: white;
   cursor: pointer;
 }
-
