@@ -46,7 +46,7 @@
   text-decoration: none;
   color: black;
   font-weight: 900;
-  text-decoration: rgba(243, 174, 174, 0.5) underline 6px;
+  text-decoration:rgba(252, 156, 143, 0.966) underline 8px;
 }
 .section1 a:hover {
   text-decoration: red underline 6px;
@@ -57,15 +57,28 @@
   position: relative;
   height: 450px;
 }
+.hero_text {
+  position: absolute;
+  bottom: 20px;
+  top: 270px;
+  color: hsl(167,40%,24%);
+ }
+ .graph{
+   padding-bottom: 15px;
+   font-weight: 900;
+   font-family: 'Fraunces';
+  
+ }
+/*.rice{
+  height: 50px;
+  line-height: 20px;
+  
+}*/
 #hero2 {
   background: url(images/desktop/image-photography.jpg);
   background-size: cover;
   position: relative;
   height: 450px;
-}
-.hero_text {
- top: 20px;
-
 }
 .client_text{
   color: hsl(210, 4%, 67%);
@@ -80,7 +93,15 @@
 .img-rounded{
   border-radius: 100%;
   position: relative;
-  margin: -5px 0 0 100px;
+  margin: -5px 0 0 150px;
+}
+img.img-rounded{
+  max-width: 20%;
+  max-height: 20%;
+}
+.names{
+  font-family: 'Fraunces';
+  font-weight: bolder;
 }
 
 .Logo {
