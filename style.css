@@ -22,6 +22,7 @@ ul.navbar-nav li .btn-light {
 } */
 .nav-link {
   color: #fff;
+  margin-right:30px;
 }
 .wow {
   margin-top: 17rem !important;
@@ -39,6 +40,12 @@ ul.navbar-nav li .btn-light {
 }
 .btn-light {
   border-radius: 25px;
+  font-family:'Fraunces';
+  font-size:25px;
+}
+.btn-light:hover{
+  color:white;
+  opacity:0.5;
 }
 .navbar-hide {
     top: -56px;
@@ -77,8 +84,25 @@ ul.navbar-nav li .btn-light {
   text-decoration: none;
   color: black;
   font-weight: 900;
-  text-decoration:rgba(252, 156, 143, 0.966) underline 6px;
+  
 }
+.section1 a.diff{
+  text-decoration:hsl(51 ,92% ,64%) underline 6px;
+}
+.section1 a.diff:hover{
+  text-decoration:hsl(51 ,100% ,49%) underline 6px;
+}
+
+.section1 a.diff1
+{
+  text-decoration:hsla(7 ,96% ,72% ,0.933) underline 6px;
+}
+.section1 a.diff1:hover{
+  text-decoration:hsl(7 ,97% ,60%) underline 6px;
+}
+
+
+
 .section1 a:hover {
   text-decoration: red underline 6px;
 }
