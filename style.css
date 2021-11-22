@@ -177,11 +177,32 @@ ul.link_list li a:hover {
 }
 /* Media Queries */
 
-@media (min-width: 800px) and (max-width: 850px) {
+@media screen and (max-width: 800px) and (max-width: 850px) {
 }
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
 }
-@media (min-width: 576px) {
+@media screen and (max-width: 576px) {
 }
-@media (min-width: 992px) {
+@media screen and (max-width: 992px) {
+  .view {
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .wow {
+    margin-top: 8rem !important;
+  }
 }
+@media screen and (max-width: 1300px) { 
+  .view {
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .wow {
+    margin-top: 14.5rem !important;
+  }
+ }
+ 
