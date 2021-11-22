@@ -40,7 +40,7 @@ ul.navbar-nav li .btn-light {
 .btn-light {
   border-radius: 25px;
   font-family: "Fraunces";
-  font-size: 20px;
+  font-size: 16px;
 }
 .btn-light:hover {
   color: white;
@@ -177,24 +177,7 @@ ul.link_list li a:hover {
 }
 /* Media Queries */
 
-@media screen and (max-width: 800px) and (max-width: 850px) {
-}
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 576px) {
-}
-@media screen and (max-width: 992px) {
-  .view {
-    background-image: url(images/desktop/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-  .wow {
-    margin-top: 8rem !important;
-  }
-}
-@media screen and (max-width: 1300px) { 
+@media screen and (max-width: 1200px) {
   .view {
     background-image: url(images/desktop/image-header.jpg);
     background-repeat: no-repeat;
@@ -203,6 +186,144 @@ ul.link_list li a:hover {
   }
   .wow {
     margin-top: 14.5rem !important;
+    margin-left: 9.5rem !important;
   }
- }
- 
+}
+@media screen and (max-width: 1100px) {
+  .wow {
+    margin-left: 13rem !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .view {
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .wow {
+    margin-top: 14.5rem !important;
+    margin-left: 15rem !important;
+  }
+  #hero {
+    background: url(images/desktop/image-graphic-design.jpg) center !important;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+  }
+
+  .hero_text {
+    position: absolute;
+    bottom: 5px;
+    top: 440px;
+    color: hsl(167, 40%, 24%);
+  }
+  .content-text {
+    padding: 4px !important;
+  }
+  .graph {
+    padding-bottom: 15px;
+    font-weight: 900;
+    font-family: "Fraunces";
+  }
+
+  #hero2 {
+    background: url(images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+  }
+  .ord_img .col-lg-3 {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .wow {
+    margin-left: 18rem !important;
+  }
+}
+@media screen and (max-width: 800px) and (max-width: 850px) {
+  .wow {
+    margin-left: 15rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav_content {
+    text-align: center;
+    background-color: #fff;
+    margin: 25px;
+    padding: 20px;
+    font-size: 18px;
+    
+  }
+  ul.navbar-nav li a.nav-link{
+    color: hsl(167, 40%, 24%) !important;
+  }
+  .btn-light {
+    color: #000;
+    background-color: hsl(51, 100%, 49%);
+  }
+  .view {
+    background-image: url(images/mobile/image-header.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .wow {
+    margin-top: 17.5rem !important;
+    margin-left: 6rem !important;
+  }
+  .wow h1 {
+    font-size: 45px;
+    margin-bottom: 2rem !important;
+  }
+  .arrow {
+    height: 85px !important;
+  }
+  .section1 {
+    padding: 20px !important;
+    margin: 30px !important;
+  }
+  .section1 h1,
+  p {
+    text-align: center;
+  }
+  #hero {
+    background: url(images/mobile/image-graphic-design.jpg) !important;
+    /* background-size: cover; */
+    position: relative;
+    height: 650px;
+  }
+
+  .hero_text {
+    position: absolute;
+    bottom: 5px;
+    top: 440px;
+    color: hsl(167, 40%, 24%);
+  }
+  .content-text {
+    padding: 4px !important;
+  }
+  .graph {
+    padding-bottom: 15px;
+    font-weight: 900;
+    font-family: "Fraunces";
+  }
+
+  #hero2 {
+    background: url(images/mobile/image-photography.jpg);
+    background-size: cover;
+    position: relative;
+    height: 650px;
+  }
+  ul.link_list li {
+  list-style: none;
+  display: inline;
+  margin-right: 25px;
+}
+}
+
+@media screen and (max-width: 576px) {
+}
