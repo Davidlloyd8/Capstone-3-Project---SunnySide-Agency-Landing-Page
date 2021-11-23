@@ -99,12 +99,13 @@ ul.navbar-nav li .btn-light {
 .section1 a:hover {
   text-decoration: red underline 6px;
 }
-#hero {
+/* #hero {
   background: url(images/desktop/image-graphic-design.jpg);
   background-size: cover;
   position: relative;
   height: 450px;
-}
+} */
+
 .hero_text {
   position: absolute;
   bottom: 20px;
@@ -235,9 +236,9 @@ ul.link_list li a:hover {
     position: relative;
     height: 650px;
   }
-  .ord_img .col-lg-3 {
+  /* .ord_img .col-lg-3 {
     padding: 0 !important;
-  }
+  } */
 }
 @media screen and (max-width: 900px) {
   .wow {
@@ -291,8 +292,8 @@ ul.link_list li a:hover {
     text-align: center;
   }
   #hero {
-    background: url(images/mobile/image-graphic-design.jpg) !important;
-    /* background-size: cover; */
+    background-image: url(images/mobile/image-graphic-design.jpg) !important;
+    background-size: cover;
     position: relative;
     height: 650px;
   }
