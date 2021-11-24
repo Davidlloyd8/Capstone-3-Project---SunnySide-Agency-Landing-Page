@@ -124,15 +124,11 @@ ul.navbar-nav li .btn-light {
   font-family: "Fraunces";
 }
 .housed-class {
-  width: 100%;
-}
-.column-images img {
-  height: 200px;
-
+  flex-wrap: nowrap;
+  display: flex;
 }
 div.column-images {
-  display: inline !important;
-  width: 100%;
+  width: 50%;
 }
 .client_text {
   color: hsl(210, 4%, 67%);
@@ -296,12 +292,9 @@ ul.link_list li a:hover {
   p {
     text-align: center;
   }
-  #hero {
-    background-image: url(images/mobile/image-graphic-design.jpg) !important;
-    background-size: cover;
-    position: relative;
-    height: 650px;
-  }
+ .housed-class {
+  flex-wrap: wrap;
+}
 
   .hero_text {
     position: absolute;
