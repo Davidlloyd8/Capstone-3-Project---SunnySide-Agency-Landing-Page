@@ -123,7 +123,17 @@ ul.navbar-nav li .btn-light {
   font-weight: 900;
   font-family: "Fraunces";
 }
+.housed-class {
+  width: 100%;
+}
+.column-images img {
+  height: 200px;
 
+}
+div.column-images {
+  display: inline !important;
+  width: 100%;
+}
 .client_text {
   color: hsl(210, 4%, 67%);
   text-transform: uppercase;
@@ -202,9 +212,8 @@ ul.link_list li a:hover {
     background-color: #fff;
     margin: 25px;
     padding: 45px;
-    
   }
-  ul.navbar-nav li a.nav-link{
+  ul.navbar-nav li a.nav-link {
     color: hsl(167, 40%, 24%) !important;
     font-size: 20px;
     font-weight: 700;
@@ -250,9 +259,8 @@ ul.link_list li a:hover {
     background-color: #fff;
     margin: 25px;
     padding: 45px;
-    
   }
-  ul.navbar-nav li a.nav-link{
+  ul.navbar-nav li a.nav-link {
     color: hsl(167, 40%, 24%) !important;
     font-size: 20px;
     font-weight: 700;
@@ -317,13 +325,13 @@ ul.link_list li a:hover {
     height: 650px;
   }
   ul.link_list li {
-  list-style: none;
-  display: inline;
-  margin-right: 25px;
-}
-.text_graph {
-  top: 65%;
-}
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+  }
+  .text_graph {
+    top: 65%;
+  }
 }
 
 @media screen and (max-width: 576px) {
