@@ -14,11 +14,6 @@ ul.navbar-nav li a.nav-link {
 ul.navbar-nav li .btn-light {
   padding-left: 120px;
 }
-/* @media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #1c2331;
-  }
-} */
 .nav-link {
   color: #fff;
   margin-right: 30px;
@@ -99,12 +94,6 @@ ul.navbar-nav li .btn-light {
 .section1 a:hover {
   text-decoration: red underline 6px;
 }
-/* #hero {
-  background: url(images/desktop/image-graphic-design.jpg);
-  background-size: cover;
-  position: relative;
-  height: 450px;
-} */
 .grape {
   position: relative;
   text-align: center;
@@ -292,9 +281,9 @@ ul.link_list li a:hover {
   p {
     text-align: center;
   }
- .housed-class {
-  flex-wrap: wrap;
-}
+  .housed-class {
+    flex-wrap: wrap;
+  }
 
   .hero_text {
     position: absolute;
